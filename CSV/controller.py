@@ -34,13 +34,13 @@ class CSVController():
 
         :return:
         """
-
-        if self.writer:
-            self.writer.writerow({'Movie Name':movie_obj.get('title'),
-                                  'IMDB Rating':movie_obj.get('rating'),
-                                  'Genre':",".join(movie_obj.get('genres'))})
-        else:
-            print("File not created")
+        if movie_obj:
+            if self.writer:
+                self.writer.writerow({'Movie Name':movie_obj.get('title'),
+                                      'IMDB Rating':movie_obj.get('rating'),
+                                      'Genre':",".join(movie_obj.get('genres'))})
+            else:
+                print("File not created")
 
     def remove_duplicate_entries(self):
         """

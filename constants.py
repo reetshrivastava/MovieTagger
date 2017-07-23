@@ -12,7 +12,7 @@ replace = [".avi","1.4","5.1","-","DVDRip","BRRip","XviD","1CDRip","aXXo","[","]
     "XVid","sC0rp","PTpower","OSCARS","DXVA","MXMG","3LT0N","TiTAN","4PlayHD","HQ","HDRiP","MoH","MP4","BadMeetsEvil",
     "XViD","3Li","PTpOWeR","3D","HSBS","CC","RiPS","WEBRip","R5","PSiG","'GokU61","GB","GokU61","NL","EE","Rel","NL",
     "PSEUDO","DVD","Rip","NeRoZ","EXTENDED","DVDScr","xvid","WarrLord","SCREAM","MERRY","XMAS","iMB","7o9",
-    "Exclusive","171","DiDee","v2", "WeTv", "ViZNU", "VPPV", "titler"
+    "Exclusive","171","DiDee","v2", "WeTv", "ViZNU", "VPPV", "titler", "DUAL"
     ]
 
 INDEX_FILE_NAME = 'MovieTagger.csv'
